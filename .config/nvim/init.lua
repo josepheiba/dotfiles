@@ -282,3 +282,18 @@ opt.mouse:append("a")
 opt.clipboard:append("unnamedplus")
 opt.modifiable = true
 opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250"
+
+-- Enable persistent view options (including cursor position)
+vim.o.viewoptions = "cursor,folds,slash,unix"
+
+-- Save and load view automatically
+vim.api.nvim_exec(
+	[[
+augroup RememberView
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
+]],
+	false
+)
