@@ -46,7 +46,8 @@ require('lazy').setup({
   'hrsh7th/cmp-path',
   'hrsh7th/cmp-cmdline',
   'hrsh7th/nvim-cmp',
-  'saadparwaiz1/cmp_luasnip', 
+  'saadparwaiz1/cmp_luasnip',
+  'onsails/lspkind.nvim',
 })
 
 vim.g.lsp_zero_ui_float_border = 0
@@ -69,10 +70,10 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 lsp_zero.set_sign_icons({
-  error = " ",
-  warn  = " ",
-  hint  = "󰻂 ",
-  info  = " ",
+  error = "",
+  warn  = "",
+  hint  = "",
+  info  = "",
 })
 
 --- if you want to know more about lsp-zero and mason.nvim
@@ -105,8 +106,6 @@ cmp.setup({
     {name = 'luasnip'},
     {name = 'buffer'},
   },
-  --- (Optional) Show source name in completion menu
-  formatting = cmp_format,
   mapping = cmp.mapping.preset.insert({
     -- `Enter` key to confirm completion
     ['<CR>'] = cmp.mapping.confirm({select = false}),
@@ -125,6 +124,16 @@ cmp.setup({
     ['<Tab>'] = cmp_action.luasnip_supertab(),
     ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
   }),
+  --- (Optional) Show source name in completion menu
+  formatting = {
+    --fields = {'abbr', 'kind', 'menu'},
+    format = require('lspkind').cmp_format({
+      mode = 'symbol', -- show only symbol annotations
+      maxwidth = 50, -- prevent the popup from showing more than provided characters
+      ellipsis_char = '...', -- when popup menu exceed maxwidth, the truncated part would show ellipsis_char instead
+    })
+  }
+  --formatting = cmp_format,
 })
 
 -- Set configuration for specific filetype.
