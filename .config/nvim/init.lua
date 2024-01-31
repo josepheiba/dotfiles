@@ -12,9 +12,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-  {"rebelot/kanagawa.nvim"},
-  {'williamboman/mason.nvim'},
-  {'williamboman/mason-lspconfig.nvim'},
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { 'williamboman/mason.nvim' },
+  { 'williamboman/mason-lspconfig.nvim' },
   -- LSP Support
   {
     'VonHeikemen/lsp-zero.nvim',
@@ -38,16 +38,29 @@ require('lazy').setup({
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
-    -- dependencies = {
-    --   {'nvim-treesitter/nvim-treesitter-textobjects'}
-    -- },
   },
   'nvim-tree/nvim-web-devicons',
+  { 'echasnovski/mini.nvim', version = '*' },
+  { 'echasnovski/mini.nvim', version = '*' },
+  "lewis6991/gitsigns.nvim",
+  'nvim-tree/nvim-tree.lua',
+  -- Test
+  'hrsh7th/cmp-buffer',
+  'hrsh7th/cmp-path',
+  'hrsh7th/cmp-cmdline',
+  'hrsh7th/nvim-cmp',
+  'saadparwaiz1/cmp_luasnip', 
 })
 
--- vim.opt.termguicolors = true
--- vim.cmd.colorscheme("kanagawa")
+vim.opt.termguicolors = true
 vim.api.nvim_set_option('showmode', false)
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+require('mini.statusline').setup()
+require('mini.pairs').setup()
+require('gitsigns').setup()
+require("nvim-tree").setup()
 
 local lsp_zero = require('lsp-zero')
 
@@ -127,14 +140,82 @@ cmp.setup({
   },
 })
 
+-- Set configuration for specific filetype.
+  cmp.setup.filetype('gitcommit', {
+    sources = cmp.config.sources({
+      { name = 'git' }, -- You can specify the `git` source if [you were installed it](https://github.com/petertriho/cmp-git).
+    }, {
+      { name = 'buffer' },
+    })
+  })
+
+  -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline({ '/', '?' }, {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = {
+      { name = 'buffer' }
+    }
+  })
+
+  -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline(':', {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = cmp.config.sources({
+      { name = 'path' }
+    }, {
+      { name = 'cmdline' }
+    })
+  })
+
+
 -- Default options:
-require('kanagawa').setup({
-    theme = "lotus",              -- Load "wave" theme when 'background' option is not set
-    background = {               -- map the value of 'background' option to a theme
-        dark = "lotus",           -- try "dragon" !
-        light = "lotus"
+require("catppuccin").setup({
+    flavour = "mocha", -- latte, frappe, macchiato, mocha
+    background = { -- :h background
+        light = "latte",
+        dark = "mocha",
     },
 })
 
 -- setup must be called before loading
-vim.cmd("colorscheme kanagawa")
+vim.cmd.colorscheme "catppuccin"
+
+local opt = vim.opt
+-- Tab / Indentation
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.softtabstop = 2
+opt.expandtab = true
+opt.smartindent = true
+--opt.wrap = false
+
+-- Search
+opt.incsearch = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.hlsearch = false
+
+-- Appearance
+opt.number = true
+opt.termguicolors = true
+opt.colorcolumn = "100"
+opt.signcolumn = "yes"
+opt.cmdheight = 1
+opt.scrolloff = 10
+opt.completeopt = "menuone,noinsert,noselect"
+
+-- Behaviour
+opt.hidden = true
+opt.errorbells = false
+opt.swapfile = false
+opt.backup = false
+opt.undodir = vim.fn.expand("~/.vim/undodir")
+opt.undofile = true
+opt.backspace = "indent,eol,start"
+opt.splitright = true
+opt.splitbelow = true
+opt.autochdir = false
+opt.iskeyword:append("-")
+opt.mouse:append("a")
+opt.clipboard:append("unnamedplus")
+opt.modifiable = true
