@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "rebelot/kanagawa.nvim", name = "kanagawa", priority = 1000 },
   { 'williamboman/mason.nvim' },
   { 'williamboman/mason-lspconfig.nvim' },
   -- LSP Support
@@ -51,12 +52,14 @@ require('lazy').setup({
   'saadparwaiz1/cmp_luasnip', 
 })
 
+vim.g.lsp_zero_ui_float_border = 0
 vim.opt.termguicolors = true
 vim.api.nvim_set_option('showmode', false)
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 require('mini.statusline').setup()
+require('mini.surround').setup()
 require('mini.pairs').setup()
 require('gitsigns').setup()
 require("nvim-tree").setup()
@@ -68,6 +71,13 @@ lsp_zero.on_attach(function(client, bufnr)
   -- to learn the available actions
   lsp_zero.default_keymaps({buffer = bufnr})
 end)
+
+lsp_zero.set_sign_icons({
+  error = " ",
+  warn  = " ",
+  hint  = "󰻂 ",
+  info  = " ",
+})
 
 --- if you want to know more about lsp-zero and mason.nvim
 --- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
@@ -91,9 +101,6 @@ local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
 
 cmp.setup({
-  window = {
-      documentation = cmp.config.window.bordered(),
-  },
   mapping = cmp.mapping.preset.insert({
     -- `Enter` key to confirm completion
     ['<CR>'] = cmp.mapping.confirm({select = false}),
@@ -178,8 +185,17 @@ require("catppuccin").setup({
     },
 })
 
+require('kanagawa').setup({
+    theme = "wave",              -- Load "wave" theme when 'background' option is not set
+    background = {               -- map the value of 'background' option to a theme
+        dark = "dragon",           -- try "dragon" !
+        light = "lotus"
+    },
+})
+
 -- setup must be called before loading
-vim.cmd.colorscheme "catppuccin"
+--vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "kanagawa"
 
 local opt = vim.opt
 -- Tab / Indentation
