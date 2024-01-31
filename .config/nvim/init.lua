@@ -42,10 +42,12 @@ require('lazy').setup({
     --   {'nvim-treesitter/nvim-treesitter-textobjects'}
     -- },
   },
+  'nvim-tree/nvim-web-devicons',
 })
 
 -- vim.opt.termguicolors = true
-vim.cmd.colorscheme("kanagawa")
+-- vim.cmd.colorscheme("kanagawa")
+vim.api.nvim_set_option('showmode', false)
 
 local lsp_zero = require('lsp-zero')
 
@@ -124,3 +126,15 @@ cmp.setup({
     end, { "i", "s" }),
   },
 })
+
+-- Default options:
+require('kanagawa').setup({
+    theme = "lotus",              -- Load "wave" theme when 'background' option is not set
+    background = {               -- map the value of 'background' option to a theme
+        dark = "lotus",           -- try "dragon" !
+        light = "lotus"
+    },
+})
+
+-- setup must be called before loading
+vim.cmd("colorscheme kanagawa")
