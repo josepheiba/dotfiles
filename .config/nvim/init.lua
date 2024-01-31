@@ -48,6 +48,13 @@ require('lazy').setup({
   'hrsh7th/nvim-cmp',
   'saadparwaiz1/cmp_luasnip',
   'onsails/lspkind.nvim',
+  {
+    'numToStr/Comment.nvim',
+    opts = {
+        -- add any options here
+    },
+    lazy = false,
+  },
 })
 
 vim.g.lsp_zero_ui_float_border = 0
@@ -180,9 +187,27 @@ require('kanagawa').setup({
     },
 })
 
+require('Comment').setup({
+  toggler = {
+    ---Line-comment toggle keymap
+    line = '<C-`>',
+    ---Block-comment toggle keymap
+    --block = 'gbc',
+  },
+  opleader = {
+    ---Line-comment keymap
+    line = '<C-`>',
+    ---Block-comment keymap
+    --block = 'gb',
+  },
+})
+
 -- setup must be called before loading
 --vim.cmd.colorscheme "catppuccin"
 vim.cmd.colorscheme "kanagawa"
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 local opt = vim.opt
 -- Tab / Indentation
@@ -191,7 +216,7 @@ opt.shiftwidth = 2
 opt.softtabstop = 2
 opt.expandtab = true
 opt.smartindent = true
---opt.wrap = false
+opt.wrap = false
 
 -- Search
 opt.incsearch = true
@@ -223,3 +248,4 @@ opt.iskeyword:append("-")
 opt.mouse:append("a")
 opt.clipboard:append("unnamedplus")
 opt.modifiable = true
+opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250"
