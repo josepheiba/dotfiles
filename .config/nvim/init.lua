@@ -35,6 +35,13 @@ require('lazy').setup({
       {'L3MON4D3/LuaSnip'}
     },
   },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    -- dependencies = {
+    --   {'nvim-treesitter/nvim-treesitter-textobjects'}
+    -- },
+  },
 })
 
 -- vim.opt.termguicolors = true
@@ -56,6 +63,14 @@ require('mason-lspconfig').setup({
     lsp_zero.default_setup,
   },
 })
+
+require'nvim-treesitter.configs'.setup {
+  auto_install = true,
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting = false,
+  },
+}
 
 local luasnip = require("luasnip")
 local cmp = require('cmp')
