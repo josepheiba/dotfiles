@@ -208,6 +208,7 @@ vim.cmd.colorscheme "kanagawa"
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+vim.o.laststatus = 3
 
 local opt = vim.opt
 -- Tab / Indentation
