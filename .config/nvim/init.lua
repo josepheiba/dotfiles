@@ -180,23 +180,6 @@ cmp.setup.cmdline(":", {
 	}),
 })
 
--- Default options:
-require("catppuccin").setup({
-	flavour = "mocha", -- latte, frappe, macchiato, mocha
-	background = { -- :h background
-		light = "latte",
-		dark = "mocha",
-	},
-})
-
-require("kanagawa").setup({
-	theme = "wave", -- Load "wave" theme when 'background' option is not set
-	background = { -- map the value of 'background' option to a theme
-		dark = "dragon", -- try "dragon" !
-		light = "lotus",
-	},
-})
-
 require("Comment").setup({
 	toggler = {
 		---Line-comment toggle keymap
@@ -220,18 +203,36 @@ require("conform").setup({
 	format_on_save = {
 		-- These options will be passed to conform.format()
 		timeout_ms = 500,
-		lsp_fallback = true,
+		lsp_fallback = false,
 	},
 })
 
 require("lint").linters_by_ft = {
 	python = { "pydocstyle" },
+	c = { "trivy" },
 }
 
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
 	callback = function()
 		require("lint").try_lint()
 	end,
+})
+
+-- Default options:
+require("catppuccin").setup({
+	flavour = "mocha", -- latte, frappe, macchiato, mocha
+	background = { -- :h background
+		light = "latte",
+		dark = "mocha",
+	},
+})
+
+require("kanagawa").setup({
+	theme = "wave", -- Load "wave" theme when 'background' option is not set
+	background = { -- map the value of 'background' option to a theme
+		dark = "dragon", -- try "dragon" !
+		light = "lotus",
+	},
 })
 
 -- setup must be called before loading
@@ -282,18 +283,3 @@ opt.mouse:append("a")
 opt.clipboard:append("unnamedplus")
 opt.modifiable = true
 opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250"
-
--- Enable persistent view options (including cursor position)
-vim.o.viewoptions = "cursor,folds,slash,unix"
-
--- Save and load view automatically
-vim.api.nvim_exec(
-	[[
-augroup RememberView
-  autocmd!
-  autocmd BufWinLeave * mkview
-  autocmd BufWinEnter * silent! loadview
-augroup END
-]],
-	false
-)
