@@ -11,60 +11,35 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- Lazy Plugin Setup
 require("lazy").setup({
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ "rebelot/kanagawa.nvim", name = "kanagawa", priority = 1000 },
 	{ "williamboman/mason.nvim" },
 	{ "williamboman/mason-lspconfig.nvim" },
 	-- LSP Support
-	{
-		"VonHeikemen/lsp-zero.nvim",
-		branch = "v3.x",
-		lazy = true,
-		config = false,
-	},
-	{
-		"neovim/nvim-lspconfig",
-		dependencies = {
-			{ "hrsh7th/cmp-nvim-lsp" },
-		},
-	},
+	{ "VonHeikemen/lsp-zero.nvim", branch = "v3.x", lazy = true, config = false },
+	{ "neovim/nvim-lspconfig" },
+	{ "hrsh7th/cmp-nvim-lsp" },
 	-- Autocompletion
 	{ "hrsh7th/nvim-cmp" },
 	{ "L3MON4D3/LuaSnip" },
 	{ "rafamadriz/friendly-snippets" },
-	{
-		"nvim-treesitter/nvim-treesitter",
-		build = ":TSUpdate",
-	},
-	"nvim-tree/nvim-web-devicons",
+	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+	{ "nvim-tree/nvim-web-devicons" },
 	{ "echasnovski/mini.nvim", version = "*" },
-	"lewis6991/gitsigns.nvim",
-	"nvim-tree/nvim-tree.lua",
-	-- Test
-	"hrsh7th/cmp-buffer",
-	"hrsh7th/cmp-path",
-	"hrsh7th/cmp-cmdline",
-	"hrsh7th/nvim-cmp",
-	"saadparwaiz1/cmp_luasnip",
-	"onsails/lspkind.nvim",
-	{
-		"numToStr/Comment.nvim",
-		opts = {
-			-- add any options here
-		},
-		lazy = false,
-	},
-	{
-		"stevearc/conform.nvim",
-		opts = {},
-	},
-	"RRethy/vim-illuminate",
-	{
-		"stevearc/conform.nvim",
-		opts = {},
-	},
-	"mfussenegger/nvim-lint",
+	{ "lewis6991/gitsigns.nvim" },
+	{ "nvim-tree/nvim-tree.lua" },
+	{ "hrsh7th/cmp-buffer" },
+	{ "hrsh7th/cmp-path" },
+	{ "hrsh7th/cmp-cmdline" },
+	{ "hrsh7th/nvim-cmp" },
+	{ "saadparwaiz1/cmp_luasnip" },
+	{ "onsails/lspkind.nvim" },
+	{ "stevearc/conform.nvim", opts = {} },
+	{ "RRethy/vim-illuminate" },
+	{ "stevearc/conform.nvim", opts = {} },
+	{ "mfussenegger/nvim-lint" },
 })
 
 require("nvim-treesitter.configs").setup({
@@ -95,10 +70,10 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 lsp_zero.set_sign_icons({
-	error = "",
-	warn = "",
-	hint = "",
-	info = "",
+	--error = " ",
+	--warn = " ",
+	--hint = " ",
+	--info = " ",
 })
 
 --- if you want to know more about lsp-zero and mason.nvim
@@ -180,21 +155,6 @@ cmp.setup.cmdline(":", {
 	}),
 })
 
-require("Comment").setup({
-	toggler = {
-		---Line-comment toggle keymap
-		line = "<C-`>",
-		---Block-comment toggle keymap
-		--block = 'gbc',
-	},
-	opleader = {
-		---Line-comment keymap
-		line = "<C-`>",
-		---Block-comment keymap
-		--block = 'gb',
-	},
-})
-
 require("conform").setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
@@ -270,7 +230,6 @@ opt.hlsearch = false
 -- Appearance
 opt.number = true
 opt.termguicolors = true
-opt.colorcolumn = "100"
 opt.signcolumn = "yes"
 opt.cmdheight = 1
 opt.scrolloff = 10
@@ -279,9 +238,7 @@ opt.completeopt = "menuone,noinsert,noselect"
 -- Behaviour
 opt.hidden = true
 opt.errorbells = false
-opt.swapfile = false
-opt.backup = false
-opt.undodir = vim.fn.expand("~/.vim/undodir")
+opt.undodir = vim.fn.expand("~/.config/nvim/undodir")
 opt.undofile = true
 opt.backspace = "indent,eol,start"
 opt.splitright = true
@@ -292,4 +249,3 @@ opt.mouse:append("a")
 opt.clipboard:append("unnamedplus")
 opt.modifiable = true
 opt.cursorline = true
-opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250"
