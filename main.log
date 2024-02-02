@@ -1,0 +1,1294 @@
+version:1
+:debug:main Starting logging for valgrind-macos-devel @3.22.0-r2023-10-29_0
+:debug:sysinfo macOS 14.3 (darwin/23.3.0) arch arm
+:debug:sysinfo MacPorts 2.9.0
+:debug:sysinfo Xcode 15.2, CLT none
+:debug:sysinfo SDK 14
+:debug:sysinfo MACOSX_DEPLOYMENT_TARGET: 14.0
+:debug:main Fetching valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 archive size
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main perl5 5.34.1_0 exists in the ports tree
+:debug:main perl5 5.34.1_0 +perl5_34 is the latest installed
+:debug:main perl5 5.34.1_0 +perl5_34 is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/lang/perl5
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Sourcing PortGroup perl5 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/perl5-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main universal_variant is false, so not adding the default universal variant
+:debug:main Executing variant perl5_34 provides perl5_34
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! perl5 5.34.1_0 >= perl5 5.34.1_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main perl5.34 5.34.3_0 exists in the ports tree
+:debug:main perl5.34 5.34.3_0  is the latest installed
+:debug:main perl5.34 5.34.3_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/lang/perl5
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Sourcing PortGroup perl5 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/perl5-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! perl5.34 5.34.3_0 >= perl5.34 5.34.3_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main db48 4.8.30_5 exists in the ports tree
+:debug:main db48 4.8.30_5  is the latest installed
+:debug:main db48 4.8.30_5  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/databases/db48
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! db48 4.8.30_5 >= db48 4.8.30_5
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main gdbm 1.23_0 exists in the ports tree
+:debug:main gdbm 1.23_0  is the latest installed
+:debug:main gdbm 1.23_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/databases/gdbm
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! gdbm 1.23_0 >= gdbm 1.23_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main gettext-runtime 0.22.4_0 exists in the ports tree
+:debug:main gettext-runtime 0.22.4_0  is the latest installed
+:debug:main gettext-runtime 0.22.4_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/gettext
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup compiler_blacklist_versions 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/compiler_blacklist_versions-1.0.tcl
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main compiler clang 1500.1.0.2.5 not blacklisted because it doesn't match {clang < 211.10.1}
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! gettext-runtime 0.22.4_0 >= gettext-runtime 0.22.4_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main libiconv 1.17_0 exists in the ports tree
+:debug:main libiconv 1.17_0  is the latest installed
+:debug:main libiconv 1.17_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/textproc/libiconv
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Re-registering default for configure.cc_archflags
+:debug:main Re-registering default for configure.objc_archflags
+:debug:main Re-registering default for configure.cxx_archflags
+:debug:main Re-registering default for configure.objcxx_archflags
+:debug:main Re-registering default for configure.fc_archflags
+:debug:main Re-registering default for configure.f90_archflags
+:debug:main Re-registering default for configure.f77_archflags
+:debug:main Re-registering default for configure.ld_archflags
+:debug:main Re-registering default for configure.universal_cflags
+:debug:main Re-registering default for configure.universal_objcflags
+:debug:main Re-registering default for configure.universal_cxxflags
+:debug:main Re-registering default for configure.universal_objcxxflags
+:debug:main Re-registering default for configure.universal_cppflags
+:debug:main Re-registering default for configure.universal_ldflags
+:debug:main Sourcing PortGroup muniversal 1.1 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.1.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main Running callback muniversal::add_compiler_flags
+:debug:main Finished running callback muniversal::add_compiler_flags
+:debug:main No need to upgrade! libiconv 1.17_0 >= libiconv 1.17_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main readline 8.2.001_0 exists in the ports tree
+:debug:main readline 8.2.001_0  is the latest installed
+:debug:main readline 8.2.001_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/readline
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! readline 8.2.001_0 >= readline 8.2.001_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main ncurses 6.4_1 exists in the ports tree
+:debug:main ncurses 6.4_1  is the latest installed
+:debug:main ncurses 6.4_1  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/ncurses
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! ncurses 6.4_1 >= ncurses 6.4_1
+:msg:main --->  Computing dependencies for valgrind-macos-devel:info:main .:debug:main Checking for conflicts against valgrind-macos-devel
+:debug:main Searching for dependency: valgrind
+:debug:main Didn't find receipt, going to depspec regex for: valgrind
+:debug:main Searching for dependency: valgrind-devel
+:debug:main Didn't find receipt, going to depspec regex for: valgrind-devel
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main Searching for dependency: git
+:debug:main Didn't find receipt, going to depspec regex for: git
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main Searching for dependency: perl5
+:debug:main Found Dependency: receipt exists for perl5
+:debug:main Searching for dependency: autoconf
+:debug:main Didn't find receipt, going to depspec regex for: autoconf
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/autoconf
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main only one arch supported, so not adding the default universal variant
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main Searching for dependency: automake
+:debug:main Didn't find receipt, going to depspec regex for: automake
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/automake
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main only one arch supported, so not adding the default universal variant
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main Searching for dependency: libtool
+:debug:main Didn't find receipt, going to depspec regex for: libtool
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/libtool
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/libtool
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Executing variant universal provides universal
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:info:main .:debug:main autoconf has no conflicts
+:debug:main Fetching autoconf-2.71_2.any_any.noarch.tbz2 archive size
+:debug:main Searching for dependency: m4
+:debug:main Didn't find receipt, going to depspec regex for: m4
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/m4
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:info:main .:debug:main m4 has no conflicts
+:debug:main Fetching m4-1.4.19_1.darwin_23.arm64.tbz2 archive size
+:debug:main Searching for dependency: gettext-runtime
+:debug:main Found Dependency: receipt exists for gettext-runtime
+:debug:main Searching for dependency: libiconv
+:debug:main Found Dependency: receipt exists for libiconv
+:info:main .:debug:main automake has no conflicts
+:debug:main Fetching automake-1.16.5_0.any_any.noarch.tbz2 archive size
+:info:main .:debug:main libtool has no conflicts
+:debug:main Fetching libtool-2.4.7_1+universal.darwin_23.arm64-x86_64.tbz2 archive size
+:debug:main Executing org.macports.main (valgrind-macos-devel)
+:debug:main dropping privileges: euid changed to 502, egid changed to 501.
+:debug:archivefetch archivefetch phase started at Fri Feb  2 02:01:36 +0100 2024
+:msg:archivefetch --->  Fetching archive for valgrind-macos-devel
+:debug:archivefetch Executing proc-pre-org.macports.archivefetch-archivefetch-0
+:debug:archivefetch Executing proc-pre-org.macports.archivefetch-archivefetch-1
+:debug:archivefetch mpi.enforce_variant list: 
+:debug:archivefetch Executing org.macports.archivefetch (valgrind-macos-devel)
+:debug:archivefetch euid/egid changed to: 0/0
+:debug:archivefetch chowned /opt/local/var/macports/incoming to macports
+:debug:archivefetch euid/egid changed to: 502/501
+:info:archivefetch --->  valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 doesn't seem to exist in /opt/local/var/macports/incoming/verified
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://nue.de.packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://mse.uk.packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:fetch fetch phase started at Fri Feb  2 02:01:37 +0100 2024
+:notice:fetch --->  Fetching distfiles for valgrind-macos-devel
+:debug:fetch Executing proc-pre-org.macports.fetch-fetch-0
+:debug:fetch Executing proc-pre-org.macports.fetch-fetch-1
+:debug:fetch mpi.enforce_variant list: 
+:debug:fetch Executing org.macports.fetch (valgrind-macos-devel)
+:debug:fetch Executing: /usr/bin/git clone --progress https://github.com/LouisBrunner/valgrind-macos.git /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29 2>&1
+:debug:fetch system: /usr/bin/git clone --progress https://github.com/LouisBrunner/valgrind-macos.git /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29 2>&1
+:info:fetch Cloning into '/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29'...
+:info:fetch remote: Enumerating objects: 138627, done.        
+:info:fetch remote: Counting objects:   0% (1/10487)        remote: Counting objects:   1% (105/10487)        remote: Counting objects:   2% (210/10487)        remote: Counting objects:   3% (315/10487)        remote: Counting objects:   4% (420/10487)        remote: Counting objects:   5% (525/10487)        remote: Counting objects:   6% (630/10487)        remote: Counting objects:   7% (735/10487)        remote: Counting objects:   8% (839/10487)        remote: Counting objects:   9% (944/10487)        remote: Counting objects:  10% (1049/10487)        remote: Counting objects:  11% (1154/10487)        remote: Counting objects:  12% (1259/10487)        remote: Counting objects:  13% (1364/10487)        remote: Counting objects:  14% (1469/10487)        remote: Counting objects:  15% (1574/10487)        remote: Counting objects:  16% (1678/10487)        remote: Counting objects:  17% (1783/10487)        remote: Counting objects:  18% (1888/10487)        remote: Counting objects:  19% (1993/10487)        remote: Counting objects:  20% (2098/10487)        remote: Counting objects:  21% (2203/10487)        remote: Counting objects:  22% (2308/10487)        remote: Counting objects:  23% (2413/10487)        remote: Counting objects:  24% (2517/10487)        remote: Counting objects:  25% (2622/10487)        remote: Counting objects:  26% (2727/10487)        remote: Counting objects:  27% (2832/10487)        remote: Counting objects:  28% (2937/10487)        remote: Counting objects:  29% (3042/10487)        remote: Counting objects:  30% (3147/10487)        remote: Counting objects:  31% (3251/10487)        remote: Counting objects:  32% (3356/10487)        remote: Counting objects:  33% (3461/10487)        remote: Counting objects:  34% (3566/10487)        remote: Counting objects:  35% (3671/10487)        remote: Counting objects:  36% (3776/10487)        remote: Counting objects:  37% (3881/10487)        remote: Counting objects:  38% (3986/10487)        remote: Counting objects:  39% (4090/10487)        remote: Counting objects:  40% (4195/10487)        remote: Counting objects:  41% (4300/10487)        remote: Counting objects:  42% (4405/10487)        remote: Counting objects:  43% (4510/10487)        remote: Counting objects:  44% (4615/10487)        remote: Counting objects:  45% (4720/10487)        remote: Counting objects:  46% (4825/10487)        remote: Counting objects:  47% (4929/10487)        remote: Counting objects:  48% (5034/10487)        remote: Counting objects:  49% (5139/10487)        remote: Counting objects:  50% (5244/10487)        remote: Counting objects:  51% (5349/10487)        remote: Counting objects:  52% (5454/10487)        remote: Counting objects:  53% (5559/10487)        remote: Counting objects:  54% (5663/10487)        remote: Counting objects:  55% (5768/10487)        remote: Counting objects:  56% (5873/10487)        remote: Counting objects:  57% (5978/10487)        remote: Counting objects:  58% (6083/10487)        remote: Counting objects:  59% (6188/10487)        remote: Counting objects:  60% (6293/10487)        remote: Counting objects:  61% (6398/10487)        remote: Counting objects:  62% (6502/10487)        remote: Counting objects:  63% (6607/10487)        remote: Counting objects:  64% (6712/10487)        remote: Counting objects:  65% (6817/10487)        remote: Counting objects:  66% (6922/10487)        remote: Counting objects:  67% (7027/10487)        remote: Counting objects:  68% (7132/10487)        remote: Counting objects:  69% (7237/10487)        remote: Counting objects:  70% (7341/10487)        remote: Counting objects:  71% (7446/10487)        remote: Counting objects:  72% (7551/10487)        remote: Counting objects:  73% (7656/10487)        remote: Counting objects:  74% (7761/10487)        remote: Counting objects:  75% (7866/10487)        remote: Counting objects:  76% (7971/10487)        remote: Counting objects:  77% (8075/10487)        remote: Counting objects:  78% (8180/10487)        remote: Counting objects:  79% (8285/10487)        remote: Counting objects:  80% (8390/10487)        remote: Counting objects:  81% (8495/10487)        remote: Counting objects:  82% (8600/10487)        remote: Counting objects:  83% (8705/10487)        remote: Counting objects:  84% (8810/10487)        remote: Counting objects:  85% (8914/10487)        remote: Counting objects:  86% (9019/10487)        remote: Counting objects:  87% (9124/10487)        remote: Counting objects:  88% (9229/10487)        remote: Counting objects:  89% (9334/10487)        remote: Counting objects:  90% (9439/10487)        remote: Counting objects:  91% (9544/10487)        remote: Counting objects:  92% (9649/10487)        remote: Counting objects:  93% (9753/10487)        remote: Counting objects:  94% (9858/10487)        remote: Counting objects:  95% (9963/10487)        remote: Counting objects:  96% (10068/10487)        remote: Counting objects:  97% (10173/10487)        remote: Counting objects:  98% (10278/10487)        remote: Counting objects:  99% (10383/10487)        remote: Counting objects: 100% (10487/10487)        remote: Counting objects: 100% (10487/10487), done.        
+:info:fetch remote: Compressing objects:   0% (1/2901)        remote: Compressing objects:   1% (30/2901)        remote: Compressing objects:   2% (59/2901)        remote: Compressing objects:   3% (88/2901)        remote: Compressing objects:   4% (117/2901)        remote: Compressing objects:   5% (146/2901)        remote: Compressing objects:   6% (175/2901)        remote: Compressing objects:   7% (204/2901)        remote: Compressing objects:   8% (233/2901)        remote: Compressing objects:   9% (262/2901)        remote: Compressing objects:  10% (291/2901)        remote: Compressing objects:  11% (320/2901)        remote: Compressing objects:  12% (349/2901)        remote: Compressing objects:  13% (378/2901)        remote: Compressing objects:  14% (407/2901)        remote: Compressing objects:  15% (436/2901)        remote: Compressing objects:  16% (465/2901)        remote: Compressing objects:  17% (494/2901)        remote: Compressing objects:  18% (523/2901)        remote: Compressing objects:  19% (552/2901)        remote: Compressing objects:  20% (581/2901)        remote: Compressing objects:  21% (610/2901)        remote: Compressing objects:  22% (639/2901)        remote: Compressing objects:  23% (668/2901)        remote: Compressing objects:  24% (697/2901)        remote: Compressing objects:  25% (726/2901)        remote: Compressing objects:  26% (755/2901)        remote: Compressing objects:  27% (784/2901)        remote: Compressing objects:  28% (813/2901)        remote: Compressing objects:  29% (842/2901)        remote: Compressing objects:  30% (871/2901)        remote: Compressing objects:  31% (900/2901)        remote: Compressing objects:  32% (929/2901)        remote: Compressing objects:  33% (958/2901)        remote: Compressing objects:  34% (987/2901)        remote: Compressing objects:  35% (1016/2901)        remote: Compressing objects:  36% (1045/2901)        remote: Compressing objects:  37% (1074/2901)        remote: Compressing objects:  38% (1103/2901)        remote: Compressing objects:  39% (1132/2901)        remote: Compressing objects:  40% (1161/2901)        remote: Compressing objects:  41% (1190/2901)        remote: Compressing objects:  42% (1219/2901)        remote: Compressing objects:  43% (1248/2901)        remote: Compressing objects:  44% (1277/2901)        remote: Compressing objects:  45% (1306/2901)        remote: Compressing objects:  46% (1335/2901)        remote: Compressing objects:  47% (1364/2901)        remote: Compressing objects:  48% (1393/2901)        remote: Compressing objects:  49% (1422/2901)        remote: Compressing objects:  50% (1451/2901)        remote: Compressing objects:  51% (1480/2901)        remote: Compressing objects:  52% (1509/2901)        remote: Compressing objects:  53% (1538/2901)        remote: Compressing objects:  54% (1567/2901)        remote: Compressing objects:  55% (1596/2901)        remote: Compressing objects:  56% (1625/2901)        remote: Compressing objects:  57% (1654/2901)        remote: Compressing objects:  58% (1683/2901)        remote: Compressing objects:  59% (1712/2901)        remote: Compressing objects:  60% (1741/2901)        remote: Compressing objects:  61% (1770/2901)        remote: Compressing objects:  62% (1799/2901)        remote: Compressing objects:  63% (1828/2901)        remote: Compressing objects:  64% (1857/2901)        remote: Compressing objects:  65% (1886/2901)        remote: Compressing objects:  66% (1915/2901)        remote: Compressing objects:  67% (1944/2901)        remote: Compressing objects:  68% (1973/2901)        remote: Compressing objects:  69% (2002/2901)        remote: Compressing objects:  70% (2031/2901)        remote: Compressing objects:  71% (2060/2901)        remote: Compressing objects:  72% (2089/2901)        remote: Compressing objects:  73% (2118/2901)        remote: Compressing objects:  74% (2147/2901)        remote: Compressing objects:  75% (2176/2901)        remote: Compressing objects:  76% (2205/2901)        remote: Compressing objects:  77% (2234/2901)        remote: Compressing objects:  78% (2263/2901)        remote: Compressing objects:  79% (2292/2901)        remote: Compressing objects:  80% (2321/2901)        remote: Compressing objects:  81% (2350/2901)        remote: Compressing objects:  82% (2379/2901)        remote: Compressing objects:  83% (2408/2901)        remote: Compressing objects:  84% (2437/2901)        remote: Compressing objects:  85% (2466/2901)        remote: Compressing objects:  86% (2495/2901)        remote: Compressing objects:  87% (2524/2901)        remote: Compressing objects:  88% (2553/2901)        remote: Compressing objects:  89% (2582/2901)        remote: Compressing objects:  90% (2611/2901)        remote: Compressing objects:  91% (2640/2901)        remote: Compressing objects:  92% (2669/2901)        remote: Compressing objects:  93% (2698/2901)        remote: Compressing objects:  94% (2727/2901)        remote: Compressing objects:  95% (2756/2901)        remote: Compressing objects:  96% (2785/2901)        remote: Compressing objects:  97% (2814/2901)        remote: Compressing objects:  98% (2843/2901)        remote: Compressing objects:  99% (2872/2901)        remote: Compressing objects: 100% (2901/2901)        remote: Compressing objects: 100% (2901/2901), done.        
+:info:fetch Receiving objects:   0% (1/138627)Receiving objects:   1% (1387/138627)Receiving objects:   2% (2773/138627), 524.00 KiB | 1.00 MiB/sReceiving objects:   3% (4159/138627), 524.00 KiB | 1.00 MiB/sReceiving objects:   4% (5546/138627), 524.00 KiB | 1.00 MiB/sReceiving objects:   4% (6360/138627), 524.00 KiB | 1.00 MiB/sReceiving objects:   5% (6932/138627), 1.72 MiB | 1.71 MiB/s  Receiving objects:   6% (8318/138627), 1.72 MiB | 1.71 MiB/sReceiving objects:   7% (9704/138627), 1.72 MiB | 1.71 MiB/sReceiving objects:   8% (11091/138627), 1.72 MiB | 1.71 MiB/sReceiving objects:   9% (12477/138627), 3.00 MiB | 1.98 MiB/sReceiving objects:  10% (13863/138627), 3.00 MiB | 1.98 MiB/sReceiving objects:  11% (15249/138627), 3.00 MiB | 1.98 MiB/sReceiving objects:  12% (16636/138627), 3.00 MiB | 1.98 MiB/sReceiving objects:  12% (17112/138627), 3.00 MiB | 1.98 MiB/sReceiving objects:  12% (17794/138627), 5.72 MiB | 2.27 MiB/sReceiving objects:  13% (18022/138627), 6.50 MiB | 2.15 MiB/sReceiving objects:  13% (18990/138627), 7.84 MiB | 2.23 MiB/sReceiving objects:  14% (19408/138627), 9.14 MiB | 2.27 MiB/sReceiving objects:  15% (20795/138627), 10.59 MiB | 2.34 MiB/sReceiving objects:  15% (21337/138627), 10.59 MiB | 2.34 MiB/sReceiving objects:  16% (22181/138627), 11.96 MiB | 2.54 MiB/sReceiving objects:  16% (23068/138627), 13.07 MiB | 2.51 MiB/sReceiving objects:  17% (23567/138627), 15.50 MiB | 2.44 MiB/sReceiving objects:  17% (23597/138627), 16.62 MiB | 2.41 MiB/sReceiving objects:  17% (23829/138627), 17.92 MiB | 2.53 MiB/sReceiving objects:  18% (24953/138627), 20.51 MiB | 2.52 MiB/sReceiving objects:  19% (26340/138627), 20.51 MiB | 2.52 MiB/sReceiving objects:  19% (27201/138627), 20.51 MiB | 2.52 MiB/sReceiving objects:  20% (27726/138627), 21.85 MiB | 2.49 MiB/sReceiving objects:  21% (29112/138627), 23.26 MiB | 2.50 MiB/sReceiving objects:  21% (29441/138627), 23.26 MiB | 2.50 MiB/sReceiving objects:  22% (30498/138627), 24.53 MiB | 2.54 MiB/sReceiving objects:  23% (31885/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  24% (33271/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  25% (34657/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  26% (36044/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  27% (37430/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  28% (38816/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  29% (40202/138627), 25.37 MiB | 2.46 MiB/sReceiving objects:  29% (41117/138627), 26.75 MiB | 2.49 MiB/sReceiving objects:  30% (41589/138627), 26.75 MiB | 2.49 MiB/sReceiving objects:  31% (42975/138627), 26.75 MiB | 2.49 MiB/sReceiving objects:  32% (44361/138627), 28.27 MiB | 2.57 MiB/sReceiving objects:  33% (45747/138627), 28.27 MiB | 2.57 MiB/sReceiving objects:  34% (47134/138627), 28.27 MiB | 2.57 MiB/sReceiving objects:  35% (48520/138627), 28.27 MiB | 2.57 MiB/sReceiving objects:  36% (49906/138627), 28.27 MiB | 2.57 MiB/sReceiving objects:  36% (50174/138627), 28.27 MiB | 2.57 MiB/sReceiving objects:  37% (51292/138627), 29.59 MiB | 2.58 MiB/sReceiving objects:  38% (52679/138627), 29.59 MiB | 2.58 MiB/sReceiving objects:  39% (54065/138627), 29.59 MiB | 2.58 MiB/sReceiving objects:  40% (55451/138627), 29.59 MiB | 2.58 MiB/sReceiving objects:  41% (56838/138627), 31.24 MiB | 2.70 MiB/sReceiving objects:  42% (58224/138627), 31.24 MiB | 2.70 MiB/sReceiving objects:  42% (58919/138627), 31.24 MiB | 2.70 MiB/sReceiving objects:  43% (59610/138627), 32.25 MiB | 2.59 MiB/sReceiving objects:  44% (60996/138627), 32.25 MiB | 2.59 MiB/sReceiving objects:  45% (62383/138627), 33.29 MiB | 2.53 MiB/sReceiving objects:  46% (63769/138627), 33.29 MiB | 2.53 MiB/sReceiving objects:  47% (65155/138627), 33.29 MiB | 2.53 MiB/sReceiving objects:  47% (66537/138627), 33.29 MiB | 2.53 MiB/sReceiving objects:  48% (66541/138627), 33.29 MiB | 2.53 MiB/sReceiving objects:  49% (67928/138627), 34.45 MiB | 2.47 MiB/sReceiving objects:  50% (69314/138627), 35.71 MiB | 2.47 MiB/sReceiving objects:  51% (70700/138627), 35.71 MiB | 2.47 MiB/sReceiving objects:  52% (72087/138627), 35.71 MiB | 2.47 MiB/sReceiving objects:  52% (72923/138627), 35.71 MiB | 2.47 MiB/sReceiving objects:  53% (73473/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  54% (74859/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  55% (76245/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  56% (77632/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  57% (79018/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  58% (80404/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  59% (81790/138627), 37.04 MiB | 2.58 MiB/sReceiving objects:  60% (83177/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  61% (84563/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  62% (85949/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  63% (87336/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  64% (88722/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  65% (90108/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  66% (91494/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  67% (92881/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  67% (93933/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  68% (94267/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  69% (95653/138627), 38.30 MiB | 2.55 MiB/sReceiving objects:  70% (97039/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  71% (98426/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  72% (99812/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  73% (101198/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  74% (102584/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  75% (103971/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  76% (105357/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  77% (106743/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  78% (108130/138627), 39.52 MiB | 2.49 MiB/sReceiving objects:  79% (109516/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  80% (110902/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  81% (112288/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  82% (113675/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  83% (115061/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  84% (116447/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  84% (116777/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  85% (117833/138627), 40.64 MiB | 2.45 MiB/sReceiving objects:  86% (119220/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  87% (120606/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  88% (121992/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  89% (123379/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  90% (124765/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  91% (126151/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  92% (127537/138627), 41.84 MiB | 2.35 MiB/sReceiving objects:  93% (128924/138627), 43.44 MiB | 2.48 MiB/sReceiving objects:  94% (130310/138627), 43.44 MiB | 2.48 MiB/sReceiving objects:  95% (131696/138627), 43.44 MiB | 2.48 MiB/sReceiving objects:  96% (133082/138627), 43.44 MiB | 2.48 MiB/sReceiving objects:  96% (133730/138627), 43.44 MiB | 2.48 MiB/sReceiving objects:  97% (134469/138627), 44.38 MiB | 2.46 MiB/sReceiving objects:  97% (134960/138627), 45.55 MiB | 2.46 MiB/sReceiving objects:  98% (135855/138627), 48.01 MiB | 2.44 MiB/sReceiving objects:  98% (135972/138627), 48.01 MiB | 2.44 MiB/sReceiving objects:  99% (137241/138627), 50.19 MiB | 2.37 MiB/sReceiving objects:  99% (137854/138627), 50.19 MiB | 2.37 MiB/sremote: Total 138627 (delta 7673), reused 9994 (delta 7447), pack-reused 128140        
+:info:fetch Receiving objects: 100% (138627/138627), 52.71 MiB | 2.41 MiB/sReceiving objects: 100% (138627/138627), 53.18 MiB | 2.44 MiB/s, done.
+:info:fetch Resolving deltas:   0% (0/105627)Resolving deltas:   1% (1057/105627)Resolving deltas:   2% (2113/105627)Resolving deltas:   3% (3169/105627)Resolving deltas:   4% (4226/105627)Resolving deltas:   5% (5282/105627)Resolving deltas:   6% (6338/105627)Resolving deltas:   7% (7396/105627)Resolving deltas:   8% (8451/105627)Resolving deltas:   9% (9508/105627)Resolving deltas:  10% (10563/105627)Resolving deltas:  11% (11619/105627)Resolving deltas:  12% (12678/105627)Resolving deltas:  13% (13732/105627)Resolving deltas:  14% (14788/105627)Resolving deltas:  15% (15845/105627)Resolving deltas:  16% (16901/105627)Resolving deltas:  17% (17958/105627)Resolving deltas:  18% (19013/105627)Resolving deltas:  19% (20071/105627)Resolving deltas:  20% (21126/105627)Resolving deltas:  21% (22182/105627)Resolving deltas:  22% (23238/105627)Resolving deltas:  23% (24295/105627)Resolving deltas:  24% (25351/105627)Resolving deltas:  25% (26407/105627)Resolving deltas:  26% (27464/105627)Resolving deltas:  27% (28520/105627)Resolving deltas:  28% (29576/105627)Resolving deltas:  29% (30632/105627)Resolving deltas:  30% (31689/105627)Resolving deltas:  31% (32745/105627)Resolving deltas:  32% (33801/105627)Resolving deltas:  33% (34857/105627)Resolving deltas:  34% (35915/105627)Resolving deltas:  35% (36971/105627)Resolving deltas:  36% (38030/105627)Resolving deltas:  37% (39082/105627)Resolving deltas:  38% (40139/105627)Resolving deltas:  39% (41196/105627)Resolving deltas:  40% (42251/105627)Resolving deltas:  41% (43309/105627)Resolving deltas:  42% (44364/105627)Resolving deltas:  43% (45420/105627)Resolving deltas:  44% (46478/105627)Resolving deltas:  45% (47534/105627)Resolving deltas:  46% (48592/105627)Resolving deltas:  47% (49645/105627)Resolving deltas:  48% (50701/105627)Resolving deltas:  49% (51758/105627)Resolving deltas:  50% (52814/105627)Resolving deltas:  51% (53870/105627)Resolving deltas:  52% (54927/105627)Resolving deltas:  53% (55983/105627)Resolving deltas:  54% (57039/105627)Resolving deltas:  55% (58097/105627)Resolving deltas:  56% (59152/105627)Resolving deltas:  57% (60208/105627)Resolving deltas:  58% (61264/105627)Resolving deltas:  59% (62320/105627)Resolving deltas:  60% (63377/105627)Resolving deltas:  61% (64433/105627)Resolving deltas:  62% (65489/105627)Resolving deltas:  63% (66546/105627)Resolving deltas:  64% (67602/105627)Resolving deltas:  65% (68658/105627)Resolving deltas:  66% (69714/105627)Resolving deltas:  67% (70771/105627)Resolving deltas:  68% (71827/105627)Resolving deltas:  69% (72883/105627)Resolving deltas:  70% (73939/105627)Resolving deltas:  71% (74996/105627)Resolving deltas:  72% (76052/105627)Resolving deltas:  73% (77108/105627)Resolving deltas:  73% (77983/105627)Resolving deltas:  74% (78164/105627)Resolving deltas:  75% (79221/105627)Resolving deltas:  76% (80277/105627)Resolving deltas:  77% (81335/105627)Resolving deltas:  78% (82390/105627)Resolving deltas:  79% (83446/105627)Resolving deltas:  80% (84502/105627)Resolving deltas:  81% (85558/105627)Resolving deltas:  82% (86615/105627)Resolving deltas:  83% (87671/105627)Resolving deltas:  84% (88727/105627)Resolving deltas:  85% (89783/105627)Resolving deltas:  86% (90840/105627)Resolving deltas:  87% (91896/105627)Resolving deltas:  88% (92952/105627)Resolving deltas:  89% (94010/105627)Resolving deltas:  90% (95065/105627)Resolving deltas:  91% (96121/105627)Resolving deltas:  92% (97177/105627)Resolving deltas:  93% (98234/105627)Resolving deltas:  94% (99291/105627)Resolving deltas:  95% (100346/105627)Resolving deltas:  96% (101403/105627)Resolving deltas:  97% (102459/105627)Resolving deltas:  98% (103516/105627)Resolving deltas:  99% (104571/105627)Resolving deltas: 100% (105627/105627)Resolving deltas: 100% (105627/105627), done.
+:debug:fetch Executing GIT_DIR=/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29/.git GIT_WORK_TREE=/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29 /usr/bin/git checkout -q d14be1d4f76466560ed6515d0f314f0925522456 2>&1
+:debug:fetch system: GIT_DIR=/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29/.git GIT_WORK_TREE=/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29 /usr/bin/git checkout -q d14be1d4f76466560ed6515d0f314f0925522456 2>&1
+:debug:fetch Privilege de-escalation not attempted as not running as root.
+:debug:checksum checksum phase started at Fri Feb  2 02:02:14 +0100 2024
+:notice:checksum --->  Verifying checksums for valgrind-macos-devel
+:debug:checksum Executing org.macports.checksum (valgrind-macos-devel)
+:debug:checksum Privilege de-escalation not attempted as not running as root.
+:debug:extract extract phase started at Fri Feb  2 02:02:14 +0100 2024
+:notice:extract --->  Extracting valgrind-macos-devel
+:debug:extract Executing org.macports.extract (valgrind-macos-devel)
+:debug:extract Privilege de-escalation not attempted as not running as root.
+:debug:patch patch phase started at Fri Feb  2 02:02:14 +0100 2024
+:debug:patch Executing proc-pre-org.macports.patch-patch-0
+:debug:patch Executing org.macports.patch (valgrind-macos-devel)
+:debug:patch Privilege de-escalation not attempted as not running as root.
+:debug:configure configure phase started at Fri Feb  2 02:02:14 +0100 2024
+:notice:configure --->  Configuring valgrind-macos-devel
+:debug:configure Preferred compilers: clang macports-clang-16 macports-clang-15 macports-clang-14 macports-clang-11
+:debug:configure Using compiler 'Xcode Clang'
+:debug:configure Executing proc-pre-org.macports.configure-configure-0
+:debug:configure Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:configure Active variants check for source-type install considers depends_fetch depends_extract depends_lib depends_build depends_run: perl5 autoconf automake libtool
+:debug:configure Executing proc-pre-org.macports.configure-configure-1
+:debug:configure compilers.enforce_c list: 
+:debug:configure compilers.enforce_fortran list: 
+:debug:configure compilers.enforce_some_fortran list: 
+:debug:configure compilers PG: GCC version reports being UNKNOWN to MacPorts
+:debug:configure compilers PG: RPATH added to ldflags as GCC version is UNKNOWN
+:debug:configure Executing proc-pre-org.macports.configure-configure-2
+:debug:configure Executing proc-pre-org.macports.configure-configure-3
+:debug:configure Executing org.macports.configure (valgrind-macos-devel)
+:debug:configure Environment: 
+:debug:configure CC_PRINT_OPTIONS='YES'
+:debug:configure CC_PRINT_OPTIONS_FILE='/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/.CC_PRINT_OPTIONS'
+:debug:configure CPATH='/opt/local/include'
+:debug:configure DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
+:debug:configure LIBRARY_PATH='/opt/local/lib'
+:debug:configure MACOSX_DEPLOYMENT_TARGET='14.0'
+:debug:configure SDKROOT='/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:info:configure Executing:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && autoreconf --install --verbose 
+:debug:configure system:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && autoreconf --install --verbose 
+:info:configure autoreconf: export WARNINGS=
+:info:configure autoreconf: Entering directory '.'
+:info:configure autoreconf: configure.ac: not using Gettext
+:info:configure autoreconf: running: /opt/local/bin/aclocal 
+:info:configure autoreconf: configure.ac: tracing
+:info:configure autoreconf: configure.ac: not using Libtool
+:info:configure autoreconf: configure.ac: not using Intltool
+:info:configure autoreconf: configure.ac: not using Gtkdoc
+:info:configure autoreconf: running: /opt/local/bin/autoconf
+:info:configure autoreconf: running: /opt/local/bin/autoheader
+:info:configure autoreconf: running: /opt/local/bin/automake --add-missing --copy --no-force
+:info:configure configure.ac:53: installing './compile'
+:info:configure configure.ac:279: installing './config.guess'
+:info:configure configure.ac:279: installing './config.sub'
+:info:configure configure.ac:37: installing './install-sh'
+:info:configure configure.ac:37: installing './missing'
+:info:configure Makefile.vex.am: installing './depcomp'
+:info:configure autoreconf: Leaving directory '.'
+:debug:configure Environment: 
+:debug:configure CC='/usr/bin/clang'
+:debug:configure CC_PRINT_OPTIONS='YES'
+:debug:configure CC_PRINT_OPTIONS_FILE='/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/.CC_PRINT_OPTIONS'
+:debug:configure CFLAGS='-pipe -Os -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure CPATH='/opt/local/include'
+:debug:configure CPPFLAGS='-I/opt/local/include -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure CXX='/usr/bin/clang++'
+:debug:configure CXXFLAGS='-pipe -Os -stdlib=libc++ -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
+:debug:configure F90FLAGS='-pipe -Os -m64'
+:debug:configure FCFLAGS='-pipe -Os -m64'
+:debug:configure FFLAGS='-pipe -Os -m64'
+:debug:configure INSTALL='/usr/bin/install -c'
+:debug:configure LDFLAGS='-L/opt/local/lib -Wl,-headerpad_max_install_names -Wl,-rpath,/opt/local/lib/libgcc -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure LIBRARY_PATH='/opt/local/lib'
+:debug:configure MACOSX_DEPLOYMENT_TARGET='14.0'
+:debug:configure OBJC='/usr/bin/clang'
+:debug:configure OBJCFLAGS='-pipe -Os -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure OBJCXX='/usr/bin/clang++'
+:debug:configure OBJCXXFLAGS='-pipe -Os -stdlib=libc++ -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure SDKROOT='/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:info:configure Executing:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:debug:configure system:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:info:configure checking for a BSD-compatible install... /usr/bin/install -c
+:info:configure checking whether build environment is sane... yes
+:info:configure checking for a race-free mkdir -p... /opt/local/bin/gmkdir -p
+:info:configure checking for gawk... no
+:info:configure checking for mawk... no
+:info:configure checking for nawk... no
+:info:configure checking for awk... awk
+:info:configure checking whether make sets $(MAKE)... yes
+:info:configure checking whether make supports nested variables... yes
+:info:configure checking whether to enable maintainer-specific portions of Makefiles... no
+:info:configure checking whether ln -s works... yes
+:info:configure checking for gcc... /usr/bin/clang
+:info:configure checking whether the C compiler works... yes
+:info:configure checking for C compiler default output file name... a.out
+:info:configure checking for suffix of executables... 
+:info:configure checking whether we are cross compiling... no
+:info:configure checking for suffix of object files... o
+:info:configure checking whether the compiler supports GNU C... yes
+:info:configure checking whether /usr/bin/clang accepts -g... yes
+:info:configure checking for /usr/bin/clang option to enable C11 features... none needed
+:info:configure checking whether /usr/bin/clang understands -c and -o together... yes
+:info:configure checking whether make supports the include directive... yes (GNU style)
+:info:configure checking dependency style of /usr/bin/clang... gcc3
+:info:configure checking how to run the C preprocessor... /usr/bin/clang -E
+:info:configure checking whether the compiler supports GNU C++... yes
+:info:configure checking whether /usr/bin/clang++ accepts -g... yes
+:info:configure checking for /usr/bin/clang++ option to enable C++11 features... none needed
+:info:configure checking dependency style of /usr/bin/clang++... gcc3
+:info:configure checking for ranlib... ranlib
+:info:configure checking for gcc-ranlib... no
+:info:configure checking for a sed that does not truncate output... /usr/bin/sed
+:info:configure checking for gsha256sum... gsha256sum
+:info:configure checking for ar... /usr/bin/ar
+:info:configure checking for gcc-ar... no
+:info:configure checking for perl... /opt/local/bin/perl
+:info:configure checking for gdb... /no/gdb/was/found/at/configure/time
+:info:configure checking dependency style of /usr/bin/clang... gcc3
+:info:configure checking for diff -u... yes
+:info:configure checking for gcc... (cached) /usr/bin/clang
+:info:configure checking whether the compiler supports GNU C... (cached) yes
+:info:configure checking whether /usr/bin/clang accepts -g... (cached) yes
+:info:configure checking for /usr/bin/clang option to enable C11 features... (cached) none needed
+:info:configure checking whether /usr/bin/clang understands -c and -o together... (cached) yes
+:info:configure checking dependency style of /usr/bin/clang... (cached) gcc3
+:info:configure checking for xcrun... yes
+:info:configure checking for Xcode SDK and includes... /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk (includes: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include)
+:info:configure checking for a supported version of gcc... ok (Apple LLVM version 15.0.0)
+:info:configure checking build system type... aarch64-apple-darwin23.3.0
+:info:configure checking host system type... aarch64-apple-darwin23.3.0
+:info:configure checking for a supported CPU... ok (aarch64)
+:info:configure checking for a 64-bit only build... no
+:info:configure checking for a 32-bit only build... no
+:info:configure checking for a supported OS... ok (darwin23.3.0)
+:info:configure checking for the kernel version... Darwin 23.x (23.3.0) / macOS 14 Sonoma
+:info:configure checking for the the minimum macOS SDK version... 10.8
+:info:configure checking for the Xcode SDK version... 14.2
+:info:configure checking for a supported CPU/OS combination... no (arm64-darwin)
+:info:configure configure: error: Valgrind is platform specific. Sorry. Please consider doing a port.
+:info:configure Command failed:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:info:configure Exit code: 1
+:error:configure Failed to configure valgrind-macos-devel: consult /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29/config.log
+:error:configure Failed to configure valgrind-macos-devel: configure failure: command execution failed
+:debug:configure Error code: NONE
+:debug:configure Backtrace: configure failure: command execution failed
+:debug:configure     while executing
+:debug:configure "$procedure $targetname"
+:error:configure See /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/main.log for details.
+version:1
+:debug:main Starting logging for valgrind-macos-devel @3.22.0-r2023-10-29_0
+:debug:sysinfo macOS 14.3 (darwin/23.3.0) arch arm
+:debug:sysinfo MacPorts 2.9.0
+:debug:sysinfo Xcode 15.2, CLT none
+:debug:sysinfo SDK 14
+:debug:sysinfo MACOSX_DEPLOYMENT_TARGET: 14.0
+:debug:main Fetching valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 archive size
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main perl5 5.34.1_0 exists in the ports tree
+:debug:main perl5 5.34.1_0 +perl5_34 is the latest installed
+:debug:main perl5 5.34.1_0 +perl5_34 is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/lang/perl5
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Sourcing PortGroup perl5 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/perl5-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main universal_variant is false, so not adding the default universal variant
+:debug:main Executing variant perl5_34 provides perl5_34
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! perl5 5.34.1_0 >= perl5 5.34.1_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main perl5.34 5.34.3_0 exists in the ports tree
+:debug:main perl5.34 5.34.3_0  is the latest installed
+:debug:main perl5.34 5.34.3_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/lang/perl5
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Sourcing PortGroup perl5 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/perl5-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! perl5.34 5.34.3_0 >= perl5.34 5.34.3_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main db48 4.8.30_5 exists in the ports tree
+:debug:main db48 4.8.30_5  is the latest installed
+:debug:main db48 4.8.30_5  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/databases/db48
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! db48 4.8.30_5 >= db48 4.8.30_5
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main gdbm 1.23_0 exists in the ports tree
+:debug:main gdbm 1.23_0  is the latest installed
+:debug:main gdbm 1.23_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/databases/gdbm
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! gdbm 1.23_0 >= gdbm 1.23_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main gettext-runtime 0.22.4_0 exists in the ports tree
+:debug:main gettext-runtime 0.22.4_0  is the latest installed
+:debug:main gettext-runtime 0.22.4_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/gettext
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup compiler_blacklist_versions 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/compiler_blacklist_versions-1.0.tcl
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main compiler clang 1500.1.0.2.5 not blacklisted because it doesn't match {clang < 211.10.1}
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! gettext-runtime 0.22.4_0 >= gettext-runtime 0.22.4_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main libiconv 1.17_0 exists in the ports tree
+:debug:main libiconv 1.17_0  is the latest installed
+:debug:main libiconv 1.17_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/textproc/libiconv
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Re-registering default for configure.cc_archflags
+:debug:main Re-registering default for configure.objc_archflags
+:debug:main Re-registering default for configure.cxx_archflags
+:debug:main Re-registering default for configure.objcxx_archflags
+:debug:main Re-registering default for configure.fc_archflags
+:debug:main Re-registering default for configure.f90_archflags
+:debug:main Re-registering default for configure.f77_archflags
+:debug:main Re-registering default for configure.ld_archflags
+:debug:main Re-registering default for configure.universal_cflags
+:debug:main Re-registering default for configure.universal_objcflags
+:debug:main Re-registering default for configure.universal_cxxflags
+:debug:main Re-registering default for configure.universal_objcxxflags
+:debug:main Re-registering default for configure.universal_cppflags
+:debug:main Re-registering default for configure.universal_ldflags
+:debug:main Sourcing PortGroup muniversal 1.1 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.1.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main Running callback muniversal::add_compiler_flags
+:debug:main Finished running callback muniversal::add_compiler_flags
+:debug:main No need to upgrade! libiconv 1.17_0 >= libiconv 1.17_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main readline 8.2.001_0 exists in the ports tree
+:debug:main readline 8.2.001_0  is the latest installed
+:debug:main readline 8.2.001_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/readline
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! readline 8.2.001_0 >= readline 8.2.001_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main ncurses 6.4_1 exists in the ports tree
+:debug:main ncurses 6.4_1  is the latest installed
+:debug:main ncurses 6.4_1  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/ncurses
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! ncurses 6.4_1 >= ncurses 6.4_1
+:debug:main epoch: in tree: 1 installed: 1
+:debug:main autoconf 2.71_2 exists in the ports tree
+:debug:main autoconf 2.71_2  is the latest installed
+:debug:main autoconf 2.71_2  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/autoconf
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main only one arch supported, so not adding the default universal variant
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! autoconf 2.71_2 >= autoconf 2.71_2
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main m4 1.4.19_1 exists in the ports tree
+:debug:main m4 1.4.19_1  is the latest installed
+:debug:main m4 1.4.19_1  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/m4
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! m4 1.4.19_1 >= m4 1.4.19_1
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main automake 1.16.5_0 exists in the ports tree
+:debug:main automake 1.16.5_0  is the latest installed
+:debug:main automake 1.16.5_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/automake
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main only one arch supported, so not adding the default universal variant
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! automake 1.16.5_0 >= automake 1.16.5_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main libtool 2.4.7_1 exists in the ports tree
+:debug:main libtool 2.4.7_1 +universal is the latest installed
+:debug:main libtool 2.4.7_1 +universal is active
+:debug:main Merging existing requested variants '+universal' into variants
+:debug:main new fully merged portvariants: universal +
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/libtool
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Executing variant universal provides universal
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! libtool 2.4.7_1 >= libtool 2.4.7_1
+:msg:main --->  Computing dependencies for valgrind-macos-devel:info:main .:debug:main Checking for conflicts against valgrind-macos-devel
+:debug:main Searching for dependency: valgrind
+:debug:main Didn't find receipt, going to depspec regex for: valgrind
+:debug:main Searching for dependency: valgrind-devel
+:debug:main Didn't find receipt, going to depspec regex for: valgrind-devel
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main Searching for dependency: git
+:debug:main Didn't find receipt, going to depspec regex for: git
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main Searching for dependency: perl5
+:debug:main Found Dependency: receipt exists for perl5
+:debug:main Searching for dependency: autoconf
+:debug:main Found Dependency: receipt exists for autoconf
+:debug:main Searching for dependency: automake
+:debug:main Found Dependency: receipt exists for automake
+:debug:main Searching for dependency: libtool
+:debug:main Found Dependency: receipt exists for libtool
+:debug:main Executing org.macports.main (valgrind-macos-devel)
+:debug:main dropping privileges: euid changed to 502, egid changed to 501.
+:debug:archivefetch archivefetch phase started at Fri Feb  2 02:07:36 +0100 2024
+:msg:archivefetch --->  Fetching archive for valgrind-macos-devel
+:debug:archivefetch Executing proc-pre-org.macports.archivefetch-archivefetch-0
+:debug:archivefetch Executing proc-pre-org.macports.archivefetch-archivefetch-1
+:debug:archivefetch mpi.enforce_variant list: 
+:debug:archivefetch Executing org.macports.archivefetch (valgrind-macos-devel)
+:debug:archivefetch euid/egid changed to: 0/0
+:debug:archivefetch chowned /opt/local/var/macports/incoming to macports
+:debug:archivefetch euid/egid changed to: 502/501
+:info:archivefetch --->  valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 doesn't seem to exist in /opt/local/var/macports/incoming/verified
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://nue.de.packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://mse.uk.packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.fetch (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.checksum (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.extract (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.patch (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:configure configure phase started at Fri Feb  2 02:07:37 +0100 2024
+:notice:configure --->  Configuring valgrind-macos-devel
+:debug:configure Preferred compilers: clang macports-clang-16 macports-clang-15 macports-clang-14 macports-clang-11
+:debug:configure Using compiler 'Xcode Clang'
+:debug:configure Executing proc-pre-org.macports.configure-configure-0
+:debug:configure Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:configure Active variants check for source-type install considers depends_fetch depends_extract depends_lib depends_build depends_run: perl5 autoconf automake libtool
+:debug:configure Executing proc-pre-org.macports.configure-configure-1
+:debug:configure compilers.enforce_c list: 
+:debug:configure compilers.enforce_fortran list: 
+:debug:configure compilers.enforce_some_fortran list: 
+:debug:configure compilers PG: GCC version reports being UNKNOWN to MacPorts
+:debug:configure compilers PG: RPATH added to ldflags as GCC version is UNKNOWN
+:debug:configure Executing proc-pre-org.macports.configure-configure-2
+:debug:configure Executing proc-pre-org.macports.configure-configure-3
+:debug:configure Executing org.macports.configure (valgrind-macos-devel)
+:debug:configure Environment: 
+:debug:configure CC_PRINT_OPTIONS='YES'
+:debug:configure CC_PRINT_OPTIONS_FILE='/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/.CC_PRINT_OPTIONS'
+:debug:configure CPATH='/opt/local/include'
+:debug:configure DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
+:debug:configure LIBRARY_PATH='/opt/local/lib'
+:debug:configure MACOSX_DEPLOYMENT_TARGET='14.0'
+:debug:configure SDKROOT='/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:info:configure Executing:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && autoreconf --install --verbose 
+:debug:configure system:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && autoreconf --install --verbose 
+:info:configure autoreconf: export WARNINGS=
+:info:configure autoreconf: Entering directory '.'
+:info:configure autoreconf: configure.ac: not using Gettext
+:info:configure autoreconf: running: /opt/local/bin/aclocal 
+:info:configure autoreconf: configure.ac: tracing
+:info:configure autoreconf: configure.ac: not using Libtool
+:info:configure autoreconf: configure.ac: not using Intltool
+:info:configure autoreconf: configure.ac: not using Gtkdoc
+:info:configure autoreconf: running: /opt/local/bin/autoconf
+:info:configure autoreconf: running: /opt/local/bin/autoheader
+:info:configure autoreconf: running: /opt/local/bin/automake --add-missing --copy --no-force
+:info:configure autoreconf: Leaving directory '.'
+:debug:configure Environment: 
+:debug:configure CC='/usr/bin/clang'
+:debug:configure CC_PRINT_OPTIONS='YES'
+:debug:configure CC_PRINT_OPTIONS_FILE='/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/.CC_PRINT_OPTIONS'
+:debug:configure CFLAGS='-pipe -Os -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure CPATH='/opt/local/include'
+:debug:configure CPPFLAGS='-I/opt/local/include -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure CXX='/usr/bin/clang++'
+:debug:configure CXXFLAGS='-pipe -Os -stdlib=libc++ -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
+:debug:configure F90FLAGS='-pipe -Os -m64'
+:debug:configure FCFLAGS='-pipe -Os -m64'
+:debug:configure FFLAGS='-pipe -Os -m64'
+:debug:configure INSTALL='/usr/bin/install -c'
+:debug:configure LDFLAGS='-L/opt/local/lib -Wl,-headerpad_max_install_names -Wl,-rpath,/opt/local/lib/libgcc -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure LIBRARY_PATH='/opt/local/lib'
+:debug:configure MACOSX_DEPLOYMENT_TARGET='14.0'
+:debug:configure OBJC='/usr/bin/clang'
+:debug:configure OBJCFLAGS='-pipe -Os -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure OBJCXX='/usr/bin/clang++'
+:debug:configure OBJCXXFLAGS='-pipe -Os -stdlib=libc++ -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure SDKROOT='/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:info:configure Executing:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:debug:configure system:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:info:configure checking for a BSD-compatible install... /usr/bin/install -c
+:info:configure checking whether build environment is sane... yes
+:info:configure checking for a race-free mkdir -p... /opt/local/bin/gmkdir -p
+:info:configure checking for gawk... no
+:info:configure checking for mawk... no
+:info:configure checking for nawk... no
+:info:configure checking for awk... awk
+:info:configure checking whether make sets $(MAKE)... yes
+:info:configure checking whether make supports nested variables... yes
+:info:configure checking whether to enable maintainer-specific portions of Makefiles... no
+:info:configure checking whether ln -s works... yes
+:info:configure checking for gcc... /usr/bin/clang
+:info:configure checking whether the C compiler works... yes
+:info:configure checking for C compiler default output file name... a.out
+:info:configure checking for suffix of executables... 
+:info:configure checking whether we are cross compiling... no
+:info:configure checking for suffix of object files... o
+:info:configure checking whether the compiler supports GNU C... yes
+:info:configure checking whether /usr/bin/clang accepts -g... yes
+:info:configure checking for /usr/bin/clang option to enable C11 features... none needed
+:info:configure checking whether /usr/bin/clang understands -c and -o together... yes
+:info:configure checking whether make supports the include directive... yes (GNU style)
+:info:configure checking dependency style of /usr/bin/clang... gcc3
+:info:configure checking how to run the C preprocessor... /usr/bin/clang -E
+:info:configure checking whether the compiler supports GNU C++... yes
+:info:configure checking whether /usr/bin/clang++ accepts -g... yes
+:info:configure checking for /usr/bin/clang++ option to enable C++11 features... none needed
+:info:configure checking dependency style of /usr/bin/clang++... gcc3
+:info:configure checking for ranlib... ranlib
+:info:configure checking for gcc-ranlib... no
+:info:configure checking for a sed that does not truncate output... /usr/bin/sed
+:info:configure checking for gsha256sum... gsha256sum
+:info:configure checking for ar... /usr/bin/ar
+:info:configure checking for gcc-ar... no
+:info:configure checking for perl... /opt/local/bin/perl
+:info:configure checking for gdb... /no/gdb/was/found/at/configure/time
+:info:configure checking dependency style of /usr/bin/clang... gcc3
+:info:configure checking for diff -u... yes
+:info:configure checking for gcc... (cached) /usr/bin/clang
+:info:configure checking whether the compiler supports GNU C... (cached) yes
+:info:configure checking whether /usr/bin/clang accepts -g... (cached) yes
+:info:configure checking for /usr/bin/clang option to enable C11 features... (cached) none needed
+:info:configure checking whether /usr/bin/clang understands -c and -o together... (cached) yes
+:info:configure checking dependency style of /usr/bin/clang... (cached) gcc3
+:info:configure checking for xcrun... yes
+:info:configure checking for Xcode SDK and includes... /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk (includes: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include)
+:info:configure checking for a supported version of gcc... ok (Apple LLVM version 15.0.0)
+:info:configure checking build system type... aarch64-apple-darwin23.3.0
+:info:configure checking host system type... aarch64-apple-darwin23.3.0
+:info:configure checking for a supported CPU... ok (aarch64)
+:info:configure checking for a 64-bit only build... no
+:info:configure checking for a 32-bit only build... no
+:info:configure checking for a supported OS... ok (darwin23.3.0)
+:info:configure checking for the kernel version... Darwin 23.x (23.3.0) / macOS 14 Sonoma
+:info:configure checking for the the minimum macOS SDK version... 10.8
+:info:configure checking for the Xcode SDK version... 14.2
+:info:configure checking for a supported CPU/OS combination... no (arm64-darwin)
+:info:configure configure: error: Valgrind is platform specific. Sorry. Please consider doing a port.
+:info:configure Command failed:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:info:configure Exit code: 1
+:error:configure Failed to configure valgrind-macos-devel: consult /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29/config.log
+:error:configure Failed to configure valgrind-macos-devel: configure failure: command execution failed
+:debug:configure Error code: NONE
+:debug:configure Backtrace: configure failure: command execution failed
+:debug:configure     while executing
+:debug:configure "$procedure $targetname"
+:error:configure See /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/main.log for details.
+version:1
+:debug:main Starting logging for valgrind-macos-devel @3.22.0-r2023-10-29_0
+:debug:sysinfo macOS 14.3 (darwin/23.3.0) arch arm
+:debug:sysinfo MacPorts 2.9.0
+:debug:sysinfo Xcode 15.2, CLT none
+:debug:sysinfo SDK 14
+:debug:sysinfo MACOSX_DEPLOYMENT_TARGET: 14.0
+:debug:main Fetching valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 archive size
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main perl5 5.34.1_0 exists in the ports tree
+:debug:main perl5 5.34.1_0 +perl5_34 is the latest installed
+:debug:main perl5 5.34.1_0 +perl5_34 is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/lang/perl5
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Sourcing PortGroup perl5 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/perl5-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main universal_variant is false, so not adding the default universal variant
+:debug:main Executing variant perl5_34 provides perl5_34
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! perl5 5.34.1_0 >= perl5 5.34.1_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main perl5.34 5.34.3_0 exists in the ports tree
+:debug:main perl5.34 5.34.3_0  is the latest installed
+:debug:main perl5.34 5.34.3_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/lang/perl5
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Sourcing PortGroup perl5 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/perl5-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! perl5.34 5.34.3_0 >= perl5.34 5.34.3_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main db48 4.8.30_5 exists in the ports tree
+:debug:main db48 4.8.30_5  is the latest installed
+:debug:main db48 4.8.30_5  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/databases/db48
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! db48 4.8.30_5 >= db48 4.8.30_5
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main gdbm 1.23_0 exists in the ports tree
+:debug:main gdbm 1.23_0  is the latest installed
+:debug:main gdbm 1.23_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/databases/gdbm
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! gdbm 1.23_0 >= gdbm 1.23_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main gettext-runtime 0.22.4_0 exists in the ports tree
+:debug:main gettext-runtime 0.22.4_0  is the latest installed
+:debug:main gettext-runtime 0.22.4_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/gettext
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup compiler_blacklist_versions 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/compiler_blacklist_versions-1.0.tcl
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main compiler clang 1500.1.0.2.5 not blacklisted because it doesn't match {clang < 211.10.1}
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! gettext-runtime 0.22.4_0 >= gettext-runtime 0.22.4_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main libiconv 1.17_0 exists in the ports tree
+:debug:main libiconv 1.17_0  is the latest installed
+:debug:main libiconv 1.17_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/textproc/libiconv
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Re-registering default for configure.universal_args
+:debug:main Re-registering default for configure.cc_archflags
+:debug:main Re-registering default for configure.objc_archflags
+:debug:main Re-registering default for configure.cxx_archflags
+:debug:main Re-registering default for configure.objcxx_archflags
+:debug:main Re-registering default for configure.fc_archflags
+:debug:main Re-registering default for configure.f90_archflags
+:debug:main Re-registering default for configure.f77_archflags
+:debug:main Re-registering default for configure.ld_archflags
+:debug:main Re-registering default for configure.universal_cflags
+:debug:main Re-registering default for configure.universal_objcflags
+:debug:main Re-registering default for configure.universal_cxxflags
+:debug:main Re-registering default for configure.universal_objcxxflags
+:debug:main Re-registering default for configure.universal_cppflags
+:debug:main Re-registering default for configure.universal_ldflags
+:debug:main Sourcing PortGroup muniversal 1.1 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.1.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main Running callback muniversal::add_compiler_flags
+:debug:main Finished running callback muniversal::add_compiler_flags
+:debug:main No need to upgrade! libiconv 1.17_0 >= libiconv 1.17_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main readline 8.2.001_0 exists in the ports tree
+:debug:main readline 8.2.001_0  is the latest installed
+:debug:main readline 8.2.001_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/readline
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! readline 8.2.001_0 >= readline 8.2.001_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main ncurses 6.4_1 exists in the ports tree
+:debug:main ncurses 6.4_1  is the latest installed
+:debug:main ncurses 6.4_1  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/ncurses
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! ncurses 6.4_1 >= ncurses 6.4_1
+:debug:main epoch: in tree: 1 installed: 1
+:debug:main autoconf 2.71_2 exists in the ports tree
+:debug:main autoconf 2.71_2  is the latest installed
+:debug:main autoconf 2.71_2  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/autoconf
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main only one arch supported, so not adding the default universal variant
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! autoconf 2.71_2 >= autoconf 2.71_2
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main m4 1.4.19_1 exists in the ports tree
+:debug:main m4 1.4.19_1  is the latest installed
+:debug:main m4 1.4.19_1  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/m4
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main Sourcing PortGroup muniversal 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/muniversal-1.0.tcl
+:debug:main muniversal: adding universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! m4 1.4.19_1 >= m4 1.4.19_1
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main automake 1.16.5_0 exists in the ports tree
+:debug:main automake 1.16.5_0  is the latest installed
+:debug:main automake 1.16.5_0  is active
+:debug:main Merging existing requested variants '' into variants
+:debug:main new fully merged portvariants: 
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/automake
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main only one arch supported, so not adding the default universal variant
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! automake 1.16.5_0 >= automake 1.16.5_0
+:debug:main epoch: in tree: 0 installed: 0
+:debug:main libtool 2.4.7_1 exists in the ports tree
+:debug:main libtool 2.4.7_1 +universal is the latest installed
+:debug:main libtool 2.4.7_1 +universal is active
+:debug:main Merging existing requested variants '+universal' into variants
+:debug:main new fully merged portvariants: universal +
+:debug:main Opening port in directory: /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/devel/libtool
+:debug:main OS darwin/23.3.0 (macOS 14.3) arch arm
+:debug:main Sourcing PortGroup clang_dependency 1.0 from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/group/clang_dependency-1.0.tcl
+:debug:main adding the default universal variant
+:debug:main Reading variant descriptions from /opt/local/var/macports/sources/rsync.macports.org/macports/release/tarballs/ports/_resources/port1.0/variant_descriptions.conf
+:debug:main Executing variant universal provides universal
+:debug:main Running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Finished running callback portconfigure::add_automatic_compiler_dependencies
+:debug:main Running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Finished running callback portbuild::add_automatic_buildsystem_dependencies
+:debug:main Running callback portstartupitem::add_notes
+:debug:main Finished running callback portstartupitem::add_notes
+:debug:main No need to upgrade! libtool 2.4.7_1 >= libtool 2.4.7_1
+:msg:main --->  Computing dependencies for valgrind-macos-devel:info:main .:debug:main Checking for conflicts against valgrind-macos-devel
+:debug:main Searching for dependency: valgrind
+:debug:main Didn't find receipt, going to depspec regex for: valgrind
+:debug:main Searching for dependency: valgrind-devel
+:debug:main Didn't find receipt, going to depspec regex for: valgrind-devel
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main Searching for dependency: git
+:debug:main Didn't find receipt, going to depspec regex for: git
+:debug:main Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:main Searching for dependency: perl5
+:debug:main Found Dependency: receipt exists for perl5
+:debug:main Searching for dependency: autoconf
+:debug:main Found Dependency: receipt exists for autoconf
+:debug:main Searching for dependency: automake
+:debug:main Found Dependency: receipt exists for automake
+:debug:main Searching for dependency: libtool
+:debug:main Found Dependency: receipt exists for libtool
+:debug:main Executing org.macports.main (valgrind-macos-devel)
+:debug:main dropping privileges: euid changed to 502, egid changed to 501.
+:debug:archivefetch archivefetch phase started at Fri Feb  2 02:09:01 +0100 2024
+:msg:archivefetch --->  Fetching archive for valgrind-macos-devel
+:debug:archivefetch Executing proc-pre-org.macports.archivefetch-archivefetch-0
+:debug:archivefetch Executing proc-pre-org.macports.archivefetch-archivefetch-1
+:debug:archivefetch mpi.enforce_variant list: 
+:debug:archivefetch Executing org.macports.archivefetch (valgrind-macos-devel)
+:debug:archivefetch euid/egid changed to: 0/0
+:debug:archivefetch chowned /opt/local/var/macports/incoming to macports
+:debug:archivefetch euid/egid changed to: 502/501
+:info:archivefetch --->  valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 doesn't seem to exist in /opt/local/var/macports/incoming/verified
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://nue.de.packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:msg:archivefetch --->  Attempting to fetch valgrind-macos-devel-3.22.0-r2023-10-29_0.darwin_23.x86_64.tbz2 from https://mse.uk.packages.macports.org/valgrind-macos-devel
+:debug:archivefetch Fetching archive failed: The requested URL returned error: 404
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.fetch (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.checksum (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.extract (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:archivefetch Skipping completed org.macports.patch (valgrind-macos-devel)
+:debug:archivefetch Privilege de-escalation not attempted as not running as root.
+:debug:configure configure phase started at Fri Feb  2 02:09:02 +0100 2024
+:notice:configure --->  Configuring valgrind-macos-devel
+:debug:configure Preferred compilers: clang macports-clang-16 macports-clang-15 macports-clang-14 macports-clang-11
+:debug:configure Using compiler 'Xcode Clang'
+:debug:configure Executing proc-pre-org.macports.configure-configure-0
+:debug:configure Found Dependency: path: /usr/bin filename: git regex: ^git$
+:debug:configure Active variants check for source-type install considers depends_fetch depends_extract depends_lib depends_build depends_run: perl5 autoconf automake libtool
+:debug:configure Executing proc-pre-org.macports.configure-configure-1
+:debug:configure compilers.enforce_c list: 
+:debug:configure compilers.enforce_fortran list: 
+:debug:configure compilers.enforce_some_fortran list: 
+:debug:configure compilers PG: GCC version reports being UNKNOWN to MacPorts
+:debug:configure compilers PG: RPATH added to ldflags as GCC version is UNKNOWN
+:debug:configure Executing proc-pre-org.macports.configure-configure-2
+:debug:configure Executing proc-pre-org.macports.configure-configure-3
+:debug:configure Executing org.macports.configure (valgrind-macos-devel)
+:debug:configure Environment: 
+:debug:configure CC_PRINT_OPTIONS='YES'
+:debug:configure CC_PRINT_OPTIONS_FILE='/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/.CC_PRINT_OPTIONS'
+:debug:configure CPATH='/opt/local/include'
+:debug:configure DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
+:debug:configure LIBRARY_PATH='/opt/local/lib'
+:debug:configure MACOSX_DEPLOYMENT_TARGET='14.0'
+:debug:configure SDKROOT='/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:info:configure Executing:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && autoreconf --install --verbose 
+:debug:configure system:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && autoreconf --install --verbose 
+:info:configure autoreconf: export WARNINGS=
+:info:configure autoreconf: Entering directory '.'
+:info:configure autoreconf: configure.ac: not using Gettext
+:info:configure autoreconf: running: /opt/local/bin/aclocal 
+:info:configure autoreconf: configure.ac: tracing
+:info:configure autoreconf: configure.ac: not using Libtool
+:info:configure autoreconf: configure.ac: not using Intltool
+:info:configure autoreconf: configure.ac: not using Gtkdoc
+:info:configure autoreconf: running: /opt/local/bin/autoconf
+:info:configure autoreconf: running: /opt/local/bin/autoheader
+:info:configure autoreconf: running: /opt/local/bin/automake --add-missing --copy --no-force
+:info:configure autoreconf: Leaving directory '.'
+:debug:configure Environment: 
+:debug:configure CC='/usr/bin/clang'
+:debug:configure CC_PRINT_OPTIONS='YES'
+:debug:configure CC_PRINT_OPTIONS_FILE='/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/.CC_PRINT_OPTIONS'
+:debug:configure CFLAGS='-pipe -Os -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure CPATH='/opt/local/include'
+:debug:configure CPPFLAGS='-I/opt/local/include -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure CXX='/usr/bin/clang++'
+:debug:configure CXXFLAGS='-pipe -Os -stdlib=libc++ -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
+:debug:configure F90FLAGS='-pipe -Os -m64'
+:debug:configure FCFLAGS='-pipe -Os -m64'
+:debug:configure FFLAGS='-pipe -Os -m64'
+:debug:configure INSTALL='/usr/bin/install -c'
+:debug:configure LDFLAGS='-L/opt/local/lib -Wl,-headerpad_max_install_names -Wl,-rpath,/opt/local/lib/libgcc -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:debug:configure LIBRARY_PATH='/opt/local/lib'
+:debug:configure MACOSX_DEPLOYMENT_TARGET='14.0'
+:debug:configure OBJC='/usr/bin/clang'
+:debug:configure OBJCFLAGS='-pipe -Os -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure OBJCXX='/usr/bin/clang++'
+:debug:configure OBJCXXFLAGS='-pipe -Os -stdlib=libc++ -isysroot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk -arch x86_64'
+:debug:configure SDKROOT='/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.sdk'
+:info:configure Executing:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:debug:configure system:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:info:configure checking for a BSD-compatible install... /usr/bin/install -c
+:info:configure checking whether build environment is sane... yes
+:info:configure checking for a race-free mkdir -p... /opt/local/bin/gmkdir -p
+:info:configure checking for gawk... no
+:info:configure checking for mawk... no
+:info:configure checking for nawk... no
+:info:configure checking for awk... awk
+:info:configure checking whether make sets $(MAKE)... yes
+:info:configure checking whether make supports nested variables... yes
+:info:configure checking whether to enable maintainer-specific portions of Makefiles... no
+:info:configure checking whether ln -s works... yes
+:info:configure checking for gcc... /usr/bin/clang
+:info:configure checking whether the C compiler works... yes
+:info:configure checking for C compiler default output file name... a.out
+:info:configure checking for suffix of executables... 
+:info:configure checking whether we are cross compiling... no
+:info:configure checking for suffix of object files... o
+:info:configure checking whether the compiler supports GNU C... yes
+:info:configure checking whether /usr/bin/clang accepts -g... yes
+:info:configure checking for /usr/bin/clang option to enable C11 features... none needed
+:info:configure checking whether /usr/bin/clang understands -c and -o together... yes
+:info:configure checking whether make supports the include directive... yes (GNU style)
+:info:configure checking dependency style of /usr/bin/clang... gcc3
+:info:configure checking how to run the C preprocessor... /usr/bin/clang -E
+:info:configure checking whether the compiler supports GNU C++... yes
+:info:configure checking whether /usr/bin/clang++ accepts -g... yes
+:info:configure checking for /usr/bin/clang++ option to enable C++11 features... none needed
+:info:configure checking dependency style of /usr/bin/clang++... gcc3
+:info:configure checking for ranlib... ranlib
+:info:configure checking for gcc-ranlib... no
+:info:configure checking for a sed that does not truncate output... /usr/bin/sed
+:info:configure checking for gsha256sum... gsha256sum
+:info:configure checking for ar... /usr/bin/ar
+:info:configure checking for gcc-ar... no
+:info:configure checking for perl... /opt/local/bin/perl
+:info:configure checking for gdb... /no/gdb/was/found/at/configure/time
+:info:configure checking dependency style of /usr/bin/clang... gcc3
+:info:configure checking for diff -u... yes
+:info:configure checking for gcc... (cached) /usr/bin/clang
+:info:configure checking whether the compiler supports GNU C... (cached) yes
+:info:configure checking whether /usr/bin/clang accepts -g... (cached) yes
+:info:configure checking for /usr/bin/clang option to enable C11 features... (cached) none needed
+:info:configure checking whether /usr/bin/clang understands -c and -o together... (cached) yes
+:info:configure checking dependency style of /usr/bin/clang... (cached) gcc3
+:info:configure checking for xcrun... yes
+:info:configure checking for Xcode SDK and includes... /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk (includes: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include)
+:info:configure checking for a supported version of gcc... ok (Apple LLVM version 15.0.0)
+:info:configure checking build system type... aarch64-apple-darwin23.3.0
+:info:configure checking host system type... aarch64-apple-darwin23.3.0
+:info:configure checking for a supported CPU... ok (aarch64)
+:info:configure checking for a 64-bit only build... no
+:info:configure checking for a 32-bit only build... no
+:info:configure checking for a supported OS... ok (darwin23.3.0)
+:info:configure checking for the kernel version... Darwin 23.x (23.3.0) / macOS 14 Sonoma
+:info:configure checking for the the minimum macOS SDK version... 10.8
+:info:configure checking for the Xcode SDK version... 14.2
+:info:configure checking for a supported CPU/OS combination... no (arm64-darwin)
+:info:configure configure: error: Valgrind is platform specific. Sorry. Please consider doing a port.
+:info:configure Command failed:  cd "/opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29" && ./configure --prefix=/opt/local --without-mpicc 
+:info:configure Exit code: 1
+:error:configure Failed to configure valgrind-macos-devel: consult /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/work/valgrind-3.22.0-r2023-10-29/config.log
+:error:configure Failed to configure valgrind-macos-devel: configure failure: command execution failed
+:debug:configure Error code: NONE
+:debug:configure Backtrace: configure failure: command execution failed
+:debug:configure     while executing
+:debug:configure "$procedure $targetname"
+:error:configure See /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_devel_valgrind/valgrind-macos-devel/main.log for details.
