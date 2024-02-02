@@ -209,7 +209,7 @@ require("conform").setup({
 
 require("lint").linters_by_ft = {
 	python = { "pydocstyle" },
-	c = { "trivy" },
+	--c = { "trivy" },
 }
 
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
@@ -229,6 +229,15 @@ require("catppuccin").setup({
 
 require("kanagawa").setup({
 	theme = "wave", -- Load "wave" theme when 'background' option is not set
+	colors = {
+		theme = {
+			all = {
+				ui = {
+					bg_gutter = "none",
+				},
+			},
+		},
+	},
 	background = { -- map the value of 'background' option to a theme
 		dark = "dragon", -- try "dragon" !
 		light = "lotus",
