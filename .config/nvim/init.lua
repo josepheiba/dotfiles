@@ -11,21 +11,23 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+vim.o.laststatus = 3
+
 -- Lazy Plugin Setup
 require("lazy").setup({
+	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate", lazy = false },
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ "rebelot/kanagawa.nvim", name = "kanagawa", priority = 1000 },
 	{ "williamboman/mason.nvim" },
 	{ "williamboman/mason-lspconfig.nvim" },
-	-- LSP Support
 	{ "VonHeikemen/lsp-zero.nvim", branch = "v3.x", lazy = true, config = false },
 	{ "neovim/nvim-lspconfig" },
 	{ "hrsh7th/cmp-nvim-lsp" },
-	-- Autocompletion
 	{ "hrsh7th/nvim-cmp" },
 	{ "L3MON4D3/LuaSnip" },
 	{ "rafamadriz/friendly-snippets" },
-	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 	{ "nvim-tree/nvim-web-devicons" },
 	{ "echasnovski/mini.nvim", version = "*" },
 	{ "lewis6991/gitsigns.nvim" },
@@ -207,10 +209,6 @@ require("kanagawa").setup({
 -- setup must be called before loading
 --vim.cmd.colorscheme "catppuccin"
 vim.cmd.colorscheme("kanagawa")
-
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
-vim.o.laststatus = 3
 
 local opt = vim.opt
 -- Tab / Indentation
