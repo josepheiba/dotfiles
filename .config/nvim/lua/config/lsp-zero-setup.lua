@@ -7,7 +7,12 @@ lsp_zero.on_attach(function(client, bufnr)
   -- see :help lsp-zero-keybindings
   -- to learn the available actions
   lsp_zero.default_keymaps({ buffer = bufnr })
-  lsp_zero.buffer_autoformat()
+  --lsp_zero.buffer_autoformat()
+  local opts = {buffer = bufnr}
+
+  vim.keymap.set({'n', 'x'}, 'gq', function()
+    vim.lsp.buf.format({async = false, timeout_ms = 10000})
+  end, opts)
 end)
 
 --- if you want to know more about lsp-zero and mason.nvim
